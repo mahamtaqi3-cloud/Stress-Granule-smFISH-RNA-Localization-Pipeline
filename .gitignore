@@ -1,0 +1,12 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+
+# Large data files
+*.tif
+*.tiff
+*.czi
+data/
+outputs/
