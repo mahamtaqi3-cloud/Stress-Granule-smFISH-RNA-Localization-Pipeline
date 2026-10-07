@@ -31,8 +31,8 @@ This pipeline performs an end-to-end quantitative analysis on 3-channel fluoresc
 ```
 
 3. Generate or Load Image Data:
-* To test with sample data, run the synthetic dataset generation script in the notebook to create `sample_microscopy.tif`.
-* To use your own data, upload a multi-channel `.tif` file using the file panel on the left sidebar.
+To test with sample data, run the synthetic dataset generation script in the notebook to create `sample_microscopy.tif`.
+To use your own data, upload a multi-channel `.tif` file using the file panel on the left sidebar.
 
 
 4. Run All Cells: Press `Ctrl + F9` (or `Cmd + F9` on Mac) to execute the pipeline and display visual overlays and summary tables.
