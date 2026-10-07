@@ -23,19 +23,19 @@ This pipeline performs an end-to-end quantitative analysis on 3-channel fluoresc
 
 ### Method 1: Running in Google Colab (Quickest)
 
-1. **Open Google Colab** and upload your notebook (`.ipynb`).
-2. **Install core dependencies** in the first cell:
+1. Open Google Colab and upload your notebook (`.ipynb`).
+2. Install core dependencies in the first cell:
    ```bash
    !pip install scikit-image scipy pandas matplotlib tifffile
 
 ```
 
-3. **Generate or Load Image Data:**
+3. Generate or Load Image Data:
 * To test with sample data, run the synthetic dataset generation script in the notebook to create `sample_microscopy.tif`.
 * To use your own data, upload a multi-channel `.tif` file using the file panel on the left sidebar.
 
 
-4. **Run All Cells:** Press `Ctrl + F9` (or `Cmd + F9` on Mac) to execute the pipeline and display visual overlays and summary tables.
+4. Run All Cells: Press `Ctrl + F9` (or `Cmd + F9` on Mac) to execute the pipeline and display visual overlays and summary tables.
 
 ---
 
