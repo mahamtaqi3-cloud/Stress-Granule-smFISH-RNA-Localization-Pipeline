@@ -38,9 +38,9 @@ To use your own data, upload a multi-channel `.tif` file using the file panel on
 4. Run All Cells: Press `Ctrl + F9` (or `Cmd + F9` on Mac) to execute the pipeline and display visual overlays and summary tables.
 
 ---
-# Method 2: Running Locally via Python Script
+Method 2: Running Locally via Python Script
 
-# 1. Clone the Repository & Install Dependencies
+1. Clone the Repository & Install Dependencies
 
 ```bash
 git clone [https://github.com/your-username/SG-Quant.git](https://github.com/your-username/SG-Quant.git)
