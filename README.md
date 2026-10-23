@@ -38,10 +38,9 @@ To use your own data, upload a multi-channel `.tif` file using the file panel on
 4. Run All Cells: Press `Ctrl + F9` (or `Cmd + F9` on Mac) to execute the pipeline and display visual overlays and summary tables.
 
 ---
+# Method 2: Running Locally via Python Script
 
-### Method 2: Running Locally via Python Script
-
-#### 1. Clone the Repository & Install Dependencies
+# 1. Clone the Repository & Install Dependencies
 
 ```bash
 git clone [https://github.com/your-username/SG-Quant.git](https://github.com/your-username/SG-Quant.git)
@@ -50,7 +49,7 @@ pip install -r requirements.txt
 
 ```
 
-#### 2. Execute Analysis Script
+# 2. Execute Analysis Script
 
 Place your 3-channel `.tif` file inside the `data/` folder and run your main script:
 
@@ -88,7 +87,7 @@ print(rna_summary)
 
 ---
 
-## 📊 Summary Output Metrics
+# 📊 Summary Output Metrics
 
 | Output Variable | Description |
 | --- | --- |
@@ -101,7 +100,7 @@ print(rna_summary)
 
 ---
 
-## 🛠️ Requirements
+# 🛠️ Requirements
 
 * `python >= 3.8`
 * `numpy`
@@ -113,7 +112,7 @@ print(rna_summary)
 
 ---
 
-## 📄 License
+# 📄 License
 
 Distributed under the MIT License. See `LICENSE` for details.
 
